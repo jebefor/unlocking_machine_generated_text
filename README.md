@@ -1,23 +1,15 @@
 # Unlocking Machine Generated Text
 
-Repo status: ongoing.
+This analysis was originally done as part of my work in automated-text detection for The Newsroom/Omdena. 
 
-## About
+The main goal was to determine how close are generative model outputs to actual human text in order to improve our ML models with feature engineering. 
 
-*How can we differenciate machine generated text from human text?* :thinking:
+For that, I took a series of linguistic features common in the literature for both fake news and machine-generated text detection. 
 
-Latest generative models are making it more difficult to detect if a text is machine generated. However, there's still "no more" than [probability](http://gltr.io/) to it. 
+The analyzed features are sentiment, subjectivity, readability, punctuation, and verb/noun use. 
 
-This repo will serve as an ongoing personal research on linguistic features that could be determinant (or not) for machine generated text detection. :computer:
+The data is comprised of a balanced subsample of 5,000 GPT-2 small (model) outputs and 5,000 GPT-2 XL (model) outputs, all trained in Web Text, as well as 5,000 samples of Web Text itself.
 
-## Features so far
+Results are consistant in all tests: both generative models compare to human numbers. 
 
-- Sentiment analysis
-- Subjectivity
-- Readability
-- Punctuation
-- POS (verb/noun use)
-
-## References and other interesting readings
-- The Limitations of Stylometry for Detecting Machine-Generated Fake News. [:link:](https://www.mitpressjournals.org/doi/full/10.1162/coli_a_00380)
-- Complex Linguistic Features for Text Classification: A Comprehensive Study. [:link:](https://www.researchgate.net/publication/221397355_Complex_Linguistic_Features_for_Text_Classification_A_Comprehensive_Study)
+Further analysis on feature engineering possibilities could help improve Machine Learning models' performance for this task - in the above-mentioned project, we could achieve 70% F1-score with TF-IDF inputs.
