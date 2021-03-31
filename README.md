@@ -10,6 +10,6 @@ The analyzed features are sentiment, subjectivity, readability, punctuation, and
 
 The data is comprised of a balanced subsample of 5,000 GPT-2 small (model) outputs and 5,000 GPT-2 XL (model) outputs, all trained in Web Text, as well as 5,000 samples of Web Text itself.
 
-Results are consistant in all tests: both generative models compare to human numbers. 
+Results are consistent in all tests: both generative models compare to human numbers. 
 
 Further analysis on feature engineering possibilities could help improve Machine Learning models' performance for this task - in the above-mentioned project, we could achieve 70% F1-score with TF-IDF inputs.
