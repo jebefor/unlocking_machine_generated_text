@@ -1,4 +1,4 @@
-# Unlocking Machine Generated Text
+# Unlocking machine-generated text
 
 This analysis was originally done as part of my work in automated-text detection for The Newsroom/Omdena. 
 
