@@ -1,5 +1,7 @@
 # Unlocking machine-generated text
 
+*If you have problems opening the notebook, you can see it [here](https://jebefor.github.io/projects/linguistic_features_MGT.html).*
+
 This analysis was originally done as part of my work in automated-text detection for The Newsroom/Omdena. 
 
 The main goal was to determine how close are generative model outputs to actual human text in order to improve our ML models with feature engineering. 
@@ -12,4 +14,4 @@ The data is comprised of a balanced subsample of 5,000 GPT-2 small (model) outpu
 
 Results are consistent in all tests: both generative models compare to human numbers. 
 
-Further analysis on feature engineering possibilities could help improve Machine Learning models' performance for this task - in the above-mentioned project, we could achieve 70% F1-score with TF-IDF inputs.
+Further analysis on feature engineering possibilities could help improve Machine Learning models' performance for this task - in the above-mentioned project, we achieved 70% F1-score with TF-IDF inputs.
